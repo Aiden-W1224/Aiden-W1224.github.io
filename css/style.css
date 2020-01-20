@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.background {
+    width: 1520px;
+    height: 766px;
+    background-image: url(../images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    position: fixed;
+    background-color: gray;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    padding: 14px 16px; 
+    margin: 0; 
+    color: gray;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: gray;
+    width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color:white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn div {
+    height: 4px;
+    background-color: black;
+    margin: 3px 0;
+    border-radius: 30px;
+    width: 30px;
+
+}
+.background span {
+    padding-left: 135px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    font-size: 100px;
+    left: 50%;
+    top: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0.75;
+    font-weight: bold;
+}
+.background p {
+    padding-left: 135px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    font-size: 80px;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.75
+}
+.aboutSection {
+    padding-left: 135px;
+    left: 120px;
+    top: 100%;
+    width: 100%;
+}
+
+.aboutSection h1 {
+    padding-left: 20px;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.aboutSection span {
+    padding-left: 135px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutSection p {
+    padding-left: 0px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+  }
+
+.skills {
+    padding-left: 135px;
+    background-color: #c4c4c4;
+    left: 120px;
+    top: 100%;
+    width: 100%;
+    height: 50%;
+}
+
+.skills h1 {
+    padding-left: 20px;
+    color: black;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+hr {
+    border-color: black;
+}
+.skills li {
+    padding-left: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
